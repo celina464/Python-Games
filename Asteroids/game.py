@@ -14,7 +14,12 @@ clock = pygame.time.Clock()
 win = pygame.display.set_mode((SCREEN_WIDTH, SCREEN_HEIGHT))
 pygame.display.set_caption('Asteroids')
 
+print("Loading gunshot sound...")
 gunshot_sound = pygame.mixer.Sound("music/laser.wav")
+print("Loaded gunshot sound.")
+print("Playing gunshot sound...")
+gunshot_sound.play()
+print("Played gunshot sound.")
 explosion_sound = pygame.mixer.Sound("music/explosion.mp3")
 
 font = pygame.font.Font('freesansbold.ttf', 32)
