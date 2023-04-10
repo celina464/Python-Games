@@ -9,6 +9,7 @@ class Rocket(pygame.sprite.Sprite):
 
 		self.winwidth, self.winheight = winsize
 		self.surf = pygame.image.load('assets/rocket.png').convert()
+		self.surf = pygame.image.load('assets/rocket.png').convert()
 		self.surf.set_colorkey((0,0,0), RLEACCEL)
 		self.rect = self.surf.get_rect(center=(250,self.winheight * 0.50))
 
