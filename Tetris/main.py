@@ -21,10 +21,10 @@ WHITE = (255, 255, 255)
 
 # Images ********************************************************************* 
 
-img1 = pygame.image.load('Assets/1.png')
-img2 = pygame.image.load('Assets/2.png')
-img3 = pygame.image.load('Assets/3.png')
-img4 = pygame.image.load('Assets/4.png')
+img1 = pygame.image.load('c:/GitHub/Python-Games/Tetris/Assets/1.png')
+img2 = pygame.image.load('c:/GitHub/Python-Games/Tetris/Assets/2.png')
+img3 = pygame.image.load('c:/GitHub/Python-Games/Tetris/Assets/3.png')
+img4 = pygame.image.load('c:/GitHub/Python-Games/Tetris/Assets/4.png')
 
 Assets = {
 	1 : img1,
@@ -35,7 +35,7 @@ Assets = {
 
 # FONTS **********************************************************************
 
-font = pygame.font.Font('Fonts/Alternity-8w7J.ttf', 50)
+font = pygame.font.Font('c:/GitHub/Python-Games/Tetris/Fonts/Alternity-8w7J.ttf', 50)
 font2 = pygame.font.SysFont('cursive', 25)
 
 
