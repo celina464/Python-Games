@@ -33,13 +33,13 @@ ORANGE = (208, 91, 3)
 
 # IMAGES *********************************************************************
 
-bg1 = pygame.image.load('Assets/bg1.png')
+bg1 = pygame.image.load('c:/GitHub/Python-Games/Tic Tac Toe/pygame/Assets/bg1.png')
 bg1 = pygame.transform.scale(bg1, (WIDTH, HEIGHT-10))
 
-bg2 = pygame.image.load('Assets/bg2.png')
+bg2 = pygame.image.load('c:/GitHub\Python-Games/Tic Tac Toe/pygame/Assets/bg2.png')
 bg2 = pygame.transform.scale(bg2, (WIDTH, HEIGHT-10))
 
-replay_image = pygame.image.load('Assets/replay.png')
+replay_image = pygame.image.load('c:/GitHub/Python-Games/Tic Tac Toe/pygame/Assets/replay.png')
 replay_image = pygame.transform.scale(replay_image, (36, 36))
 replay_rect = replay_image.get_rect()
 replay_rect.x = WIDTH - 110
@@ -58,9 +58,9 @@ text = players[current_player]
 scoreX = 0
 scoreO = 0
 
-font1 = pygame.font.Font('Fonts/PAPYRUS.ttf', 17)
-font2 = pygame.font.Font('Fonts/CHILLER.ttf', 30)
-font3 = pygame.font.Font('Fonts/CHILLER.ttf', 40)
+font1 = pygame.font.Font('c:/GitHub/Python-Games/Tic Tac Toe/pygame/Fonts/PAPYRUS.TTF', 17)
+font2 = pygame.font.Font('c:/GitHub/Python-Games/Tic Tac Toe/pygame/Fonts/CHILLER.TTF', 30)
+font3 = pygame.font.Font('c:/GitHub/Python-Games/Tic Tac Toe/pygame/Fonts/CHILLER.TTF', 40)
 
 tic_tac_toe = font2.render('Tic Tac Toe', True, WHITE)
 
