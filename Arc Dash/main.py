@@ -42,10 +42,10 @@ color = color_list[color_index]
 
 # FONTS ***********************************************************************
 
-title_font = "Fonts/Aladin-Regular.ttf"
-tap_to_play_font = "Fonts/BubblegumSans-Regular.ttf"
-score_font = "Fonts/DalelandsUncialBold-82zA.ttf"
-game_over_font = "Fonts/ghostclan.ttf"
+title_font = r"C:\Users\cchir\OneDrive\Documentos\GitHub\Python-GamesArch Dash/Fonts/Aladin-Regular.ttf"
+tap_to_play_font = r"C:\Users\cchir\OneDrive\Documentos\GitHub\Python-GamesArch Dash/Fonts/BubblegumSans-Regular.ttf"
+score_font = r"C:\Users\cchir\OneDrive\Documentos\GitHub\Python-GamesFonts/Arch Dash/DalelandsUncialBold-82zA.ttf"
+game_over_font = r"C:\Users\cchir\OneDrive\Documentos\GitHub\Python-GamesArch Dash/Fonts/ghostclan.ttf"
 
 # MESSAGES ********************************************************************
 
@@ -63,20 +63,20 @@ high_score_msg = Message(200, 280, 40, "0", tap_to_play_font, BLACK, win)
 
 # SOUNDS **********************************************************************
 
-score_fx = pygame.mixer.Sound('Sounds/point.mp3')
-death_fx = pygame.mixer.Sound('Sounds/dead.mp3')
-score_page_fx = pygame.mixer.Sound('Sounds/score_page.mp3')
+score_fx = pygame.mixer.Sound('C:\Users\cchir\OneDrive\Documentos\GitHub\Python-GamesArch Dash/Arch DashSounds/point.mp3')
+death_fx = pygame.mixer.Sound('C:\Users\cchir\OneDrive\Documentos\GitHub\Python-GamesArch Dash/Sounds/dead.mp3')
+score_page_fx = pygame.mixer.Sound('C:\Users\cchir\OneDrive\Documentos\GitHub\Python-GamesArch Dash/Sounds/score_page.mp3')
 
-pygame.mixer.music.load('Sounds/hk.mp3')
+pygame.mixer.music.load('C:\Users\cchir\OneDrive\Documentos\GitHub\Python-GamesArch Dash/Sounds/hk.mp3')
 pygame.mixer.music.play(loops=-1)
 pygame.mixer.music.set_volume(0.5)
 
 # Button images
 
-home_img = pygame.image.load('Assets/homeBtn.png')
-replay_img = pygame.image.load('Assets/replay.png')
-sound_off_img = pygame.image.load("Assets/soundOffBtn.png")
-sound_on_img = pygame.image.load("Assets/soundOnBtn.png")
+home_img = pygame.image.load('C:\Users\cchir\OneDrive\Documentos\GitHub\Python-GamesArch Dash/Assets/homeBtn.png')
+replay_img = pygame.image.load('C:\Users\cchir\OneDrive\Documentos\GitHub\Python-GamesArch Dash/Assets/replay.png')
+sound_off_img = pygame.image.load("C:\Users\cchir\OneDrive\Documentos\GitHub\Python-GamesArch Dash/Assets/soundOffBtn.png")
+sound_on_img = pygame.image.load("C:\Users\cchir\OneDrive\Documentos\GitHub\Python-GamesArch Dash/Assets/soundOnBtn.png")
 
 # Buttons
 

@@ -29,13 +29,13 @@ c_list = [RED, BLACK, WHITE]
 # Fonts
 
 pygame.font.init()
-score_font = pygame.font.Font('Fonts/BubblegumSans-Regular.ttf', 50)
+score_font = pygame.font.Font(r'Fonts/BubblegumSans-Regular.ttf', 50)
 
 # Sounds
 
-coin_fx = pygame.mixer.Sound('Sounds/coin.mp3')
-death_fx = pygame.mixer.Sound('Sounds/death.mp3')
-move_fx = pygame.mixer.Sound('Sounds/move.mp3')
+coin_fx = pygame.mixer.Sound(r'Sounds/coin.mp3')
+death_fx = pygame.mixer.Sound(r'Sounds/death.mp3')
+move_fx = pygame.mixer.Sound(r'Sounds/move.mp3')
 
 # backgrounds
 
