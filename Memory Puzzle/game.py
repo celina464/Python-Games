@@ -24,35 +24,35 @@ WHITE = (255, 255, 255)
 ### LOADING IMAGES ************************************************************
 img_list = []
 for img in range(1,21):
-	image = pygame.image.load(f"Assets/icons/{img}.jpeg")
+	image = pygame.image.load(f"C:/Users/estudiante/Documents/GitHub\Python-Games/Memory Puzzle/Assets/icons/{img}.jpeg")
 	image = pygame.transform.scale(image, (TILESIZE,TILESIZE))
 	img_list.append(image)
 
-bg = pygame.image.load('Assets/bg.jpg')
-game_won = pygame.image.load('Assets/won.png')
-rightbar = pygame.image.load('Assets/image.jpg')
+bg = pygame.image.load(f"C:/Users/estudiante/Documents/GitHub/Python-Games/Memory Puzzle/Assets/bg.jpg")
+game_won = pygame.image.load(f"C:/Users/estudiante/Documents/GitHub/Python-Games/Memory Puzzle/Assets/won.png")
+rightbar = pygame.image.load(f"C:/Users/estudiante/Documents/GitHub/Python-Games/Memory Puzzle/Assets/image.jpg")
 rightbar = pygame.transform.scale(rightbar, (280, HEIGHT - 47))
 
 ### Loading Sounds ************************************************************
-pygame.mixer.music.load('Sounds/Puzzle-Game-3_Looping.mp3')
+pygame.mixer.music.load("C:/Users/estudiante/Documents/GitHub/Python-Games/Memory Puzzle/Sounds/Puzzle-Game-3_Looping.mp3")
 pygame.mixer.music.set_volume(0.4)
 pygame.mixer.music.play(loops=-1)
 
-card_click = pygame.mixer.Sound("Sounds/card click.wav")
-woosh = pygame.mixer.Sound("Sounds/woosh.mp3")
+card_click = pygame.mixer.Sound("C:/Users/estudiante/Documents/GitHub/Python-Games/Memory Puzzle/Sounds/card click.wav")
+woosh = pygame.mixer.Sound("C:/Users/estudiante/Documents/GitHub/Python-Games/Memory Puzzle/Sounds/woosh.mp3")
 
 ### Buttons *******************************************************************
-restart_img = pygame.image.load('Assets/restart.png')
+restart_img = pygame.image.load("C:/Users/estudiante/Documents/GitHub/Python-Games/Memory Puzzle/Assets/restart.png")
 restart_btn = Button(restart_img, (40,40), 720, 230)
 
-info_img = pygame.image.load('Assets/info.png')
+info_img = pygame.image.load("C:/Users/estudiante/Documents/GitHub/Python-Games/Memory Puzzle/Assets/info.png")
 info_btn = Button(info_img, (40,40), 720, 280)
 
-close_img = pygame.image.load('Assets/close.png')
+close_img = pygame.image.load("C:/Users/estudiante/Documents/GitHub/Python-Games/Memory Puzzle/Assets/close.png")
 close_btn = Button(close_img, (40,40), 720, 330)
 
 ### LOADING FRUITS INFORMATION ************************************************
-with open('Info/info.json') as f:
+with open("C:/Users/estudiante/Documents/GitHub/Python-Games/Memory Puzzle/Info/info.json") as f:
 	dct = json.load(f)
 
 ### LOADING FONTS *************************************************************
